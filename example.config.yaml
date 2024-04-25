@@ -1,0 +1,10 @@
+default:
+  scraper:
+    target-url: 'https://www.example.com/artist-name' #Replace with list of artist songs URL
+    artist-name: 'Padi' #Replace with artist name
+  database:
+    host: localhost
+    username: postgres
+    password: postgres
+    port: 5432
+    db-name: chordhub
