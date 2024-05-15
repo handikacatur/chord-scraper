@@ -8,3 +8,5 @@ default:
     password: postgres
     port: 5432
     db-name: chordhub
+  chordhub-api:
+    base-url: 'https://api.example.com/v1'
